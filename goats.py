@@ -22,11 +22,11 @@ def play(firstchoice, switch):
     secondchoice = firstchoice if not switch else options[0]
     #print "secondchoice: %s" % secondchoice
     if secondchoice == car:
-        #print "WIN"
+        #print "car"
         #print "-----------------------"
         return True
     else:
-        #print "goat fucker"
+        #print "goat"
         #print "-----------------------"
         return False
 
